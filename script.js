@@ -1,4 +1,4 @@
-const brasilAbertoApiKey = 'SUA_CHAVE_API_AQUI'; //chave da tua api do brasil aberto
+const brasilAbertoApiKey = 'Z8C5PCLYXLf7tvmGJytJMjXKiU9KfZu9vZEJvCSiKSaowaG8Q01ioo1RwJA0pDoG'; //chave da tua api do brasil aberto
 
 async function calcularDistanciaEntreCEPs(cepA, cepB) {
     const url = `https://api.brasilaberto.com/v1/distance?pointA=${cepA}&pointB=${cepB}&mode=STRAIGHT_LINE`;
