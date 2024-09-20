@@ -18,7 +18,7 @@ async function calcularDistanciaEntreCEPs(cepA, cepB) {
 }
 
 function calcularValorFrete(distancia) {
-    const valorBase = 15,50;
+    const valorBase = 16;
     const valorPorKm = 2;
     const kmBase = 10;
 
